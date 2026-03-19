@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maplewood Heights HOA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg class="logo-svg" viewBox="0 0 48 48" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <!-- Blue shield background -->
+          <path d="M24 2 L44 12 L44 28 Q44 40 24 46 Q4 40 4 28 L4 12 Z" fill="#1b3a6b"/>
+          <!-- White inner area -->
+          <path d="M24 6 L40 14 L40 28 Q40 38 24 43 Q8 38 8 28 L8 14 Z" fill="#ffffff"/>
+          <!-- Red maple leaf -->
+          <g transform="translate(24, 14) scale(0.55)" fill="#c41e3a">
+            <path d="M0-12 L2-6 L8-8 L5-3 L10 0 L5 2 L7 7 L3 5 L0 12 L-3 5 L-7 7 L-5 2 L-10 0 L-5-3 L-8-8 L-2-6 Z"/>
+            <rect x="-1" y="8" width="2" height="5" rx="0.5"/>
+          </g>
+          <!-- Blue house -->
+          <g transform="translate(24, 33)" fill="#1b3a6b">
+            <polygon points="0,-7 -9,0 -7,0 -7,6 7,6 7,0 9,0"/>
+            <rect x="-2" y="1" width="4" height="5" fill="#ffffff" rx="0.5"/>
+          </g>
+        </svg>
+        Maplewood Heights
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Photos</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#board">Board</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to Maplewood Heights</h1>
+      <p>A vibrant community where neighbors become family</p>
+      <div class="hero-buttons">
+        <a href="#events" class="btn btn-primary">Upcoming Events</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Our Community</h2>
+      <p class="section-subtitle">Established in 1998, Maplewood Heights is a welcoming neighborhood of 220 homes.</p>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">&#127968;</div>
+          <h3>Our Mission</h3>
+          <p>To maintain and enhance property values while fostering a strong sense of community among all residents.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#127795;</div>
+          <h3>Community Spaces</h3>
+          <p>Enjoy our community pool, playground, walking trails, and clubhouse available to all residents year-round.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#129309;</div>
+          <h3>Get Involved</h3>
+          <p>Join a committee, attend board meetings, or volunteer at community events. Every voice matters here.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128220;</div>
+          <h3>Guidelines</h3>
+          <p>Our CC&Rs help keep the neighborhood beautiful and property values strong for every homeowner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="section section-alt" id="news">
+    <div class="container">
+      <h2 class="section-title">Community News</h2>
+      <p class="section-subtitle">Stay up to date with the latest happenings in Maplewood Heights</p>
+      <div class="news-grid">
+        <article class="news-card news-featured">
+          <div class="news-badge">Featured</div>
+          <div class="news-date">March 15, 2026</div>
+          <h3>Spring Community Clean-Up Day</h3>
+          <p>Join us Saturday, April 4th from 9 AM to 1 PM for our annual Spring Clean-Up. Supplies provided, just bring your enthusiasm! Meet at the clubhouse. Lunch will be served afterward.</p>
+          <a href="#contact" class="news-link">Sign up to volunteer &rarr;</a>
+        </article>
+        <article class="news-card">
+          <div class="news-date">March 10, 2026</div>
+          <h3>Pool Opens May 1st</h3>
+          <p>The community pool will open for the season on May 1st. Updated pool passes will be available at the clubhouse starting April 15th. New hours: 8 AM - 9 PM daily.</p>
+        </article>
+        <article class="news-card">
+          <div class="news-date">March 1, 2026</div>
+          <h3>Board Meeting Minutes Available</h3>
+          <p>Minutes from the February board meeting are now available in the Documents section. Key topics included landscaping updates and the proposed playground renovation.</p>
+        </article>
+        <article class="news-card">
+          <div class="news-date">February 20, 2026</div>
+          <h3>New Recycling Guidelines</h3>
+          <p>The city has updated recycling guidelines effective April 1st. Please review the new accepted materials list posted in the Documents section below.</p>
+        </article>
+        <article class="news-card">
+          <div class="news-date">February 10, 2026</div>
+          <h3>Welcome New Neighbors!</h3>
+          <p>Please join us in welcoming the Martinez family (Elm St) and the Patels (Oak Lane) to Maplewood Heights. Stop by and say hello!</p>
+        </article>
+        <article class="news-card">
+          <div class="news-date">January 28, 2026</div>
+          <h3>Street Light Repairs Complete</h3>
+          <p>All reported street light outages on Cedar Drive and Birch Court have been repaired. Please report any future outages using the contact form.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="section" id="events">
+    <div class="container">
+      <h2 class="section-title">Upcoming Events</h2>
+      <p class="section-subtitle">Mark your calendars for these community gatherings</p>
+      <div class="events-list">
+        <div class="event-item">
+          <div class="event-date-box">
+            <span class="event-month">APR</span>
+            <span class="event-day">4</span>
+          </div>
+          <div class="event-details">
+            <h3>Spring Clean-Up Day</h3>
+            <p class="event-meta">9:00 AM - 1:00 PM &bull; Clubhouse & Common Areas</p>
+            <p>Annual neighborhood beautification event. Gloves, bags, and tools provided.</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date-box">
+            <span class="event-month">APR</span>
+            <span class="event-day">15</span>
+          </div>
+          <div class="event-details">
+            <h3>Board Meeting</h3>
+            <p class="event-meta">7:00 PM - 8:30 PM &bull; Clubhouse Meeting Room</p>
+            <p>Monthly board meeting. Open to all residents. Agenda posted one week prior.</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date-box">
+            <span class="event-month">MAY</span>
+            <span class="event-day">1</span>
+          </div>
+          <div class="event-details">
+            <h3>Pool Season Opening</h3>
+            <p class="event-meta">8:00 AM &bull; Community Pool</p>
+            <p>Kick off the summer at the pool! Free ice cream for kids on opening day.</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date-box">
+            <span class="event-month">MAY</span>
+            <span class="event-day">24</span>
+          </div>
+          <div class="event-details">
+            <h3>Memorial Day Cookout</h3>
+            <p class="event-meta">12:00 PM - 4:00 PM &bull; Community Park Pavilion</p>
+            <p>Annual cookout with games, music, and food. Bring a side dish to share!</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date-box">
+            <span class="event-month">JUN</span>
+            <span class="event-day">14</span>
+          </div>
+          <div class="event-details">
+            <h3>Neighborhood Yard Sale</h3>
+            <p class="event-meta">7:00 AM - 2:00 PM &bull; Neighborhood-Wide</p>
+            <p>Set up in your driveway and sell your treasures. Maps available at the clubhouse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Photo Gallery</h2>
+      <p class="section-subtitle">Moments from our community</p>
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="spaces">Spaces</button>
+        <button class="filter-btn" data-filter="seasons">Seasons</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+            <span>Summer Block Party 2025</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="spaces">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+            <span>Community Pool</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="seasons">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+            <span>Winter Wonderland</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+            <span>Spring Clean-Up 2025</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="spaces">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+            <span>Playground & Park</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="seasons">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+            <span>Fall Foliage on Maple Dr</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ffecd2, #fcb69f);">
+            <span>Holiday Decorating Contest</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="spaces">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #89f7fe, #66a6ff);">
+            <span>Walking Trail</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #fddb92, #d1fdff);">
+            <span>Memorial Day Cookout</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Documents -->
+  <section class="section" id="documents">
+    <div class="container">
+      <h2 class="section-title">Documents & Resources</h2>
+      <p class="section-subtitle">Important community documents for residents</p>
+      <div class="docs-grid">
+        <div class="doc-card">
+          <div class="doc-icon">&#128196;</div>
+          <h3>CC&Rs</h3>
+          <p>Covenants, Conditions & Restrictions governing our community.</p>
+          <span class="doc-link">PDF &bull; Updated Jan 2026</span>
+        </div>
+        <div class="doc-card">
+          <div class="doc-icon">&#128203;</div>
+          <h3>Bylaws</h3>
+          <p>HOA bylaws outlining governance structure and procedures.</p>
+          <span class="doc-link">PDF &bull; Updated Jan 2026</span>
+        </div>
+        <div class="doc-card">
+          <div class="doc-icon">&#128197;</div>
+          <h3>Meeting Minutes</h3>
+          <p>Monthly board meeting minutes archive.</p>
+          <span class="doc-link">PDF &bull; February 2026</span>
+        </div>
+        <div class="doc-card">
+          <div class="doc-icon">&#128176;</div>
+          <h3>Annual Budget</h3>
+          <p>2026 fiscal year budget and financial reports.</p>
+          <span class="doc-link">PDF &bull; Approved Dec 2025</span>
+        </div>
+        <div class="doc-card">
+          <div class="doc-icon">&#127757;</div>
+          <h3>Architectural Guidelines</h3>
+          <p>Standards for exterior modifications and improvements.</p>
+          <span class="doc-link">PDF &bull; Updated Mar 2026</span>
+        </div>
+        <div class="doc-card">
+          <div class="doc-icon">&#9851;</div>
+          <h3>Recycling Guide</h3>
+          <p>Updated city recycling guidelines effective April 2026.</p>
+          <span class="doc-link">PDF &bull; New!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Board Members -->
+  <section class="section section-alt" id="board">
+    <div class="container">
+      <h2 class="section-title">Board of Directors</h2>
+      <p class="section-subtitle">Your elected community leaders</p>
+      <div class="board-grid">
+        <div class="board-card">
+          <div class="board-avatar">SJ</div>
+          <h3>Sarah Johnson</h3>
+          <p class="board-role">President</p>
+          <p class="board-bio">Resident since 2005. Passionate about community building and green spaces.</p>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar">MC</div>
+          <h3>Michael Chen</h3>
+          <p class="board-role">Vice President</p>
+          <p class="board-bio">Resident since 2010. Focuses on infrastructure and community safety.</p>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar">LR</div>
+          <h3>Linda Rodriguez</h3>
+          <p class="board-role">Treasurer</p>
+          <p class="board-bio">Resident since 2008. CPA with expertise in community financial management.</p>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar">DW</div>
+          <h3>David Williams</h3>
+          <p class="board-role">Secretary</p>
+          <p class="board-bio">Resident since 2015. Ensures transparent communication with all homeowners.</p>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar">AP</div>
+          <h3>Anita Patel</h3>
+          <p class="board-role">Member-at-Large</p>
+          <p class="board-bio">Resident since 2012. Coordinates events and the welcome committee.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Quick answers to common questions</p>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            When are HOA dues collected?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Annual dues are collected in January of each year. Quarterly payment plans are available upon request. Please contact the Treasurer for payment options.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I submit an architectural change request?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Download the Architectural Change Request form from the Documents section, fill it out, and submit it to the board. Requests are reviewed at the monthly board meeting. Allow 30 days for processing.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What are the pool hours and rules?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>The pool is open May 1 through September 30, daily from 8 AM to 9 PM. All residents must have a valid pool pass. Guests are limited to 4 per household per visit. Full pool rules are posted at the pool entrance.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I report a maintenance issue?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Use the contact form below to report maintenance issues in common areas. For emergencies (broken water mains, downed trees blocking roads), call the emergency line at (555) 123-4567.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I rent out the clubhouse for private events?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Residents can reserve the clubhouse for private events. There is a small cleaning deposit required. Contact the board secretary to check availability and reserve your date.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            When are board meetings held?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Board meetings are held on the third Tuesday of every month at 7 PM in the clubhouse meeting room. All residents are welcome to attend. Meeting agendas are posted one week in advance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">Have a question, concern, or suggestion? We'd love to hear from you.</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-icon">&#128205;</div>
+            <div>
+              <h4>HOA Office</h4>
+              <p>100 Maplewood Heights Clubhouse<br>Anytown, ST 12345</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">&#128222;</div>
+            <div>
+              <h4>Phone</h4>
+              <p>(555) 987-6543<br>Mon-Fri, 9 AM - 5 PM</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">&#9993;</div>
+            <div>
+              <h4>Email</h4>
+              <p>board@maplewoodheightshoa.org</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">&#128680;</div>
+            <div>
+              <h4>Emergency Line</h4>
+              <p>(555) 123-4567<br>Available 24/7</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="/contact" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="address">Street Address</label>
+            <input type="text" id="address" name="address" placeholder="Your address within Maplewood Heights">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a topic...</option>
+              <option value="general">General Inquiry</option>
+              <option value="maintenance">Maintenance Request</option>
+              <option value="architectural">Architectural Change Request</option>
+              <option value="complaint">Concern / Complaint</option>
+              <option value="event">Event Suggestion</option>
+              <option value="volunteer">Volunteer Interest</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <div class="form-success" id="formSuccess">
+            Thank you! Your message has been received. We'll get back to you within 2 business days.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4><span class="logo-icon">&#9750;</span> Maplewood Heights HOA</h4>
+          <p>Building a stronger community together since 1998.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Photos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#documents">Documents</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#board">Board</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Office Hours</h4>
+          <p>Monday - Friday<br>9:00 AM - 5:00 PM</p>
+          <p>Phone: (555) 987-6543</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Maplewood Heights Homeowners Association. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

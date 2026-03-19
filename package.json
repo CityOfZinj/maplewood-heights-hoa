@@ -1,0 +1,14 @@
+{
+  "name": "maplewood-heights-hoa",
+  "version": "1.0.0",
+  "description": "Maplewood Heights HOA community website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ejs": "^3.1.10"
+  }
+}
